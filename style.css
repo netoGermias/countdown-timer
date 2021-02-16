@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #fff;
+}
+
+
+.author{
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    height: 180px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+    border-radius: 2px;
+    box-sizing: border-box;
+
+}
+
+#pic{
+    height: 140px;
+    background-color: url(img/pic00.jpg);
+    border-radius: 10%;
+    
+}
+
+h1{
+    font-size: 4rem;
+    margin-top: 10rem;
+    font-weight: normal;
+    margin-top: 5rem
+}
+
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-container{
+    text-align: center;
+}
+
+.countdown-container span{
+    font-size: 1.3rem;
+}
